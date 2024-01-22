@@ -27,20 +27,18 @@ We invite all to contribute in making it more acessible and useful. If you have 
 
 Clone the repo.
 ```
-git clone https://github.com/lijiaman/egoego.git
-cd egoego/
+git clone https://github.com/Heprain/SEFFSal.git
+cd SEFFSal/
 ```
-
-
 
 Create a virtual environment using Conda and activate the environment.
-
-conda create -n egoego_env python=3.8
-conda activate egoego_env 
-Install PyTorch
 ```
 conda create -n seff python=3.7 -y
-conda activate seff
+conda activate seff 
+```
+
+Install PyTorch
+```
 pip install torch==1.11.0+cu113 torchvision==0.12.0+cu113 torchaudio==0.11.0 --extra-index-url https://download.pytorch.org/whl/cu113
 pip install mmcv-full -f https://download.openmmlab.com/mmcv/dist/cu113/torch1.11/index.html
 pip install tqdm opencv-python scipy tensorboardX tabulate easydict
