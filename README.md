@@ -39,17 +39,19 @@ conda activate seff
 
 Install PyTorch
 ```
-pip install torch==1.11.0+cu113 torchvision==0.12.0+cu113 torchaudio==0.11.0 --extra-index-url https://download.pytorch.org/whl/cu113
-pip install mmcv-full -f https://download.openmmlab.com/mmcv/dist/cu113/torch1.11/index.html
-pip install tqdm opencv-python scipy tensorboardX tabulate easydict
+conda install pytorch==1.13.1 torchvision==0.14.1 torchaudio==0.13.1 -c pytorch
 ```
 
+Install other dependencies.
+```
+pip install opencv-python
+```
 
 **1. Download Datasets and Checkpoints.**
 
 - **Datasets:** 
 
-By default, you can put datasets into the folder 'datasets' or use 'ln -s path_to_data datasets'.
+By default, you can put datasets into the folder 'Datasets'.
 
 | Datasets | [GoogleDrive](https://drive.google.com/drive/folders/1RIa9t7Wi4krq0YcgjR3EWBxWWJedrYUl?usp=sharing) | [OneDrive](https://mailnankaieducn-my.sharepoint.com/:f:/g/personal/bowenyin_mail_nankai_edu_cn/EqActCWQb_pJoHpxvPh4xRgBMApqGAvUjid-XK3wcl08Ug?e=VcIVob) | [BaiduNetdisk](https://pan.baidu.com/s/1-CEL88wM5DYOFHOVjzRRhA?pwd=ij7q) | 
 |:---: |:---:|:---:|:---:|
