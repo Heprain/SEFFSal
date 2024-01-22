@@ -1,4 +1,4 @@
-# <p align=left>`A SALIENCY ENHANCED FEATURE FUSION BASED MULTISCALE    RGB-D SALIENT OBJECT DETECTION NETWORK (ICASSP 2024)`</p>
+# <p align=left>`A SALIENCY ENHANCED FEATURE FUSION BASED MULTISCALE RGB-D SALIENT OBJECT DETECTION NETWORK (ICASSP 2024)`</p>
 
 <!--  -->
 
@@ -7,7 +7,7 @@ This official repository contains the source code, pre-trained, trained checkpoi
 We invite all to contribute in making it more acessible and useful. If you have any questions about our work, feel free to contact me via e-mail (qingy_zhao@163.com). 
 
 <p align="center">
-    <img src="figs/DFormer.png" width="600"  width="1200"/> <br />
+    <img src="pics/fm.pdf" width="600"  width="1200"/> <br />
     <em> 
     Figure 1: Comparisons between the existing methods and our DFormer (RGB-D Pre-training).
     </em>
