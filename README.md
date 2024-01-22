@@ -53,7 +53,7 @@ pip install timm
 
 - **Datasets:** 
 
-Download the raw data from Baidu Pan [code: yiy1](). Then put them under the following directory:
+Download the raw data from Baidu Pan [code: yiy1](). 
 
 
 - **Checkpoints:** 
@@ -92,32 +92,29 @@ NYUDepth v2 trained DFormers T/S/B/L can be downloaded at
 <pre><code>
 
 ```shell
-<checkpoints>
-|-- <pretrained>
-    |-- <DFormer_Large.pth.tar>
-    |-- <DFormer_Base.pth.tar>
-    |-- <DFormer_Small.pth.tar>
-    |-- <DFormer_Tiny.pth.tar>
-|-- <trained>
-    |-- <NYUDepthv2>
+<Dataset>
+|-- <Train>
+    |-- <depth>
         |-- ...
-    |-- <SUNRGBD>
+    |-- <GT>
         |-- ...
-<datasets>
-|-- <DatasetName1>
     |-- <RGB>
-        |-- <name1>.<ImageFormat>
-        |-- <name2>.<ImageFormat>
-        ...
-    |-- <Depth>
-        |-- <name1>.<DepthFormat>
-        |-- <name2>.<DepthFormat>
-    |-- train.txt
-    |-- test.txt
-|-- <DatasetName2>
-|-- ...
+        |-- ...
+|-- <Test>
+    |-- <DatasetName1>
+        |-- <depth>
+            |-- <name1>.<DepthFormat>
+            |-- <name2>.<DepthFormat>
+        |-- <GT>
+            |-- <name1>.<ImageFormat>
+            |-- <name2>.<ImageFormat>
+            ...
+        |-- <RGB>
+            |-- <name1>.<DepthFormat>
+            |-- <name2>.<DepthFormat>
+    |-- <DatasetName2>
+    |-- ...
 ```
-
 </code></pre>
 </details>
 
