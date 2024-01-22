@@ -53,11 +53,7 @@ pip install timm
 
 - **Datasets:** 
 
-By default, you can put datasets into the folder 'Datasets'.
-
-| Datasets | Link | 
-|:---: |:---:|
-| NJU2K | [GoogleDrive](https://drive.google.com/file/d/1R1O2dWr6HqpTOiDn6hZxUWTesOSJteQo/view)| 
+Download the raw data from Baidu Pan [code: yiy1](). Then put them under the following directory:
 
 
 - **Checkpoints:** 
