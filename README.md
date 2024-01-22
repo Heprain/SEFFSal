@@ -2,38 +2,22 @@
 
 <!--  -->
 
-This official repository contains the source code, pre-trained, trained checkpoints, and evaluation toolbox of paper 'A Saliency Enhanced Feature Fusion based multiscale RGB-D Salient Object Detection Network'. The technical report could be found at [arXiv]().
+This official repository contains the source code, pre-trained, trained checkpoints, and evaluation toolbox of paper 'A Saliency Enhanced Feature Fusion based multiscale RGB-D Salient Object Detection Network'. The full paper could be found at [arXiv]().
 
 We invite all to contribute in making it more acessible and useful. If you have any questions about our work, feel free to contact me via e-mail (qingy_zhao@163.com). 
 
 <p align="center">
-    <img src="pics/fm.pic" width="600"  width="1200"/> <br />
+    <img src="pics/fm.png" width="600"  width="1200"/> <br />
     <em> 
-    Figure 1: Comparisons between the existing methods and our DFormer (RGB-D Pre-training).
+    Figure 1: The framework of our multiscale RGB-D saliency detector.
     </em>
 </p>
-
-<!-- <p align="center">
-    <img src="figs/overview.jpg" width="600"  width="1200"/> <br />
-    <em> 
-    Figure 2: Overview of the DFormer.
-    </em>
-</p> -->
-
-
-
-
 
 
 ## 1. 🌟  NEWS 
 
-<!-- - [2023/09/05] Releasing the codebase of DFormer and all the pre-trained checkpoints.
-
-- [2023/10/26] Releasing the RGBD SOD codebase of DFormer at [DFormer-SOD](https://github.com/VCIP-RGBD/DFormer-SOD).
-
-- [2023/12/03] Adding the tutorial about adding new datasets at [Application to new datasets(添加新数据集)](https://github.com/VCIP-RGBD/DFormer/tree/main/figs/application_new_dataset). -->
-
-- [2024/01/16] Our DFormer has been accpeted by The International Conference on Learning Representations (ICLR 2024).
+- [2023/12/14] Our SEFFSal has been accpeted by 2024 IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP 2024).
+- [2024/1/22]  Releasing the codebase of SEFFSal and all the pre-trained checkpoints.
 
 
 ## 2. 🚀 Get Start
