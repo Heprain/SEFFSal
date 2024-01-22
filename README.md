@@ -93,27 +93,27 @@ NYUDepth v2 trained DFormers T/S/B/L can be downloaded at
 
 ```shell
 <Dataset>
-|-- <Train>
-    |-- <depth>
-        |-- ...
-    |-- <GT>
-        |-- ...
-    |-- <RGB>
-        |-- ...
-|-- <Test>
-    |-- <DatasetName1>
+    |-- <Train>
         |-- <depth>
-            |-- <name1>.<DepthFormat>
-            |-- <name2>.<DepthFormat>
+            |-- ...
         |-- <GT>
-            |-- <name1>.<ImageFormat>
-            |-- <name2>.<ImageFormat>
-            ...
+            |-- ...
         |-- <RGB>
-            |-- <name1>.<DepthFormat>
-            |-- <name2>.<DepthFormat>
-    |-- <DatasetName2>
-    |-- ...
+            |-- ...
+    |-- <Test>
+        |-- <DatasetName1>
+            |-- <depth>
+                |-- <name1>.<DepthFormat>
+                |-- <name2>.<DepthFormat>
+            |-- <GT>
+                |-- <name1>.<ImageFormat>
+                |-- <name2>.<ImageFormat>
+                ...
+            |-- <RGB>
+                |-- <name1>.<DepthFormat>
+                |-- <name2>.<DepthFormat>
+        |-- <DatasetName2>
+        |-- ...
 ```
 </code></pre>
 </details>
