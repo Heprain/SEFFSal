@@ -131,8 +131,9 @@ You can evaluate the result maps using the tool in [Python_GPU Version](https://
 </p>
 
 <p align="center">
-    <img src="pics/Sal.jpg" width="600"  width="1200"/> <br />
+    <img src="pics/result.png" width="600"  width="1200"/> <br />
     <em> 
+        Quantitative comparison of different RGB-D SOD methods. The bold is the best. We use ’-t’, ’-s’, and ’-m’ to denote our method with tiny, small, and middle FasterNet backbones, respectively. ’-scale1’ and ’-scale2’ are two variants of our method.
     </em>
 </p> 
 
@@ -140,12 +141,7 @@ You can evaluate the result maps using the tool in [Python_GPU Version](https://
 ## Reference
 You may want to cite:
 ```
-@article{yin2023dformer,
-  title={DFormer: Rethinking RGBD Representation Learning for Semantic Segmentation},
-  author={Yin, Bowen and Zhang, Xuying and Li, Zhongyu and Liu, Li and Cheng, Ming-Ming and Hou, Qibin},
-  journal={arXiv preprint arXiv:2309.09668},
-  year={2023}
-}
+
 ```
 
 
@@ -157,4 +153,4 @@ Our implementation is mainly based on [mmsegmentaion](https://github.com/open-mm
 
 ### License
 
-Code in this repo is for non-commercial use only.
+The code in this repo is for non-commercial use only.
