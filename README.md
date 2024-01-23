@@ -100,9 +100,6 @@ FasterNet Pre-trained models T/S/M can be downloaded at:
 </code></pre>
 </details>
 
-
-
-
  <br /> 
 
 
