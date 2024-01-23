@@ -130,7 +130,7 @@ You can evaluate the result maps using the tool in [Python_GPU Version](https://
 
 
 ## 🚩 Performance
-> Note: Each of the compared methods was retrained using their default setting, except for image size (352 × 352) and number of epochs (100)
+> Note: Each of the compared methods was retrained using their default setting, except for image size (352 × 352) and number of epochs (100).
 <p align="center">
     <img src="pics/result.png" width="600"  width="1200"/> <br />
     <em> 
@@ -155,7 +155,7 @@ You may want to cite:
 
 ### Acknowledgment
 
-Our implementation is mainly based on [MobileSal](https://github.com/yuhuan-wu/mobilesal), [FasterNet](https://github.com/JierunChen/FasterNet) and [CMNext](https://github.com/jamycheung/DELIVER). Thanks to their authors.
+Our implementation is mainly based on [MobileSal](https://github.com/yuhuan-wu/mobilesal) and [FasterNet](https://github.com/JierunChen/FasterNet). Thanks to their authors.
 
 
 
