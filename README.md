@@ -122,7 +122,7 @@ You can evaluate the result maps using the tool in [Python_GPU Version](https://
 
 
 ## 🚩 Performance
-
+> Note: Each of the compared methods was retrained using their default setting, except for image size (352 × 352) and number of epochs (100)
 <p align="center">
     <img src="pics/result.png" width="600"  width="1200"/> <br />
     <em> 
