@@ -155,7 +155,7 @@ You may want to cite:
 
 ### Acknowledgment
 
-Our implementation is mainly based on [mmsegmentaion](https://github.com/open-mmlab/mmsegmentation/tree/v0.24.1), [CMX](https://github.com/huaaaliu/RGBX_Semantic_Segmentation) and [CMNext](https://github.com/jamycheung/DELIVER). Thanks for their authors.
+Our implementation is mainly based on [MobileSal](https://github.com/yuhuan-wu/mobilesal), [FasterNet](https://github.com/JierunChen/FasterNet) and [CMNext](https://github.com/jamycheung/DELIVER). Thanks to their authors.
 
 
 
