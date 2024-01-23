@@ -124,16 +124,17 @@ You can evaluate the result maps using the tool in [Python_GPU Version](https://
 ## 🚩 Performance
 
 <p align="center">
-    <img src="figs/Semseg.jpg" width="600"  width="1200"/> <br />
+    <img src="pics/comp.png" width="600"  width="1200"/> <br />
     <em> 
+        Some typical results of different RGB-D SOD methods on various scenes.
     </em>
 </p>
 
-<!-- <p align="center">
-    <img src="figs/Sal.jpg" width="600"  width="1200"/> <br />
+<p align="center">
+    <img src="pics/Sal.jpg" width="600"  width="1200"/> <br />
     <em> 
     </em>
-</p> -->
+</p> 
 
 
 ## Reference
