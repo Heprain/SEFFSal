@@ -2,9 +2,9 @@
 
 <!--  -->
 
-This official repository contains the source code, pre-trained, trained checkpoints, and evaluation toolbox of paper 'A Saliency Enhanced Feature Fusion based multiscale RGB-D Salient Object Detection Network'. The full paper could be found at [arXiv]().
+This official repository contains the source code, pre-trained, trained checkpoints, and evaluation toolbox of the paper 'A Saliency Enhanced Feature Fusion based multiscale RGB-D Salient Object Detection Network'. The full paper could be found at [arXiv]().
 
-We invite all to contribute in making it more acessible and useful. If you have any questions about our work, feel free to contact me via e-mail (qingy_zhao@163.com). 
+We invite all to contribute to making it more accessible and useful. If you have any questions about our work, feel free to contact me via e-mail (qingy_zhao@163.com). 
 
 <p align="center">
     <img src="pics/fm.png" width="600"  width="1200"/> <br />
@@ -16,14 +16,14 @@ We invite all to contribute in making it more acessible and useful. If you have 
 
 ## 1. 🌟  NEWS 
 
-- [2023/12/14] Our SEFFSal has been accpeted by 2024 IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP 2024).
+- [2023/12/14] Our SEFFSal has been accepted by the 2024 IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP 2024).
 - [2024/1/22]  Releasing the codebase of SEFFSal and all the pre-trained checkpoints.
 
 
 ## 2. 🚀 Get Start
 
 **0. Install**
-> Note: This code was developed on Ubuntu 20.04 with Python 3.7, CUDA 11.7 and PyTorch 1.13.1.
+> Note: This code was developed on Ubuntu 20.04 with Python 3.7, CUDA 11.7, and PyTorch 1.13.1.
 
 Clone the repo.
 ```
@@ -72,7 +72,7 @@ FasterNet Pre-trained models T/S/M can be downloaded at:
 <details>
 <summary>Orgnize the checkpoints and dataset folder in the following structure:</summary>
 <pre><code>
-
+    
 ```shell
 <Dataset>
     |-- <Train>
@@ -106,9 +106,6 @@ FasterNet Pre-trained models T/S/M can be downloaded at:
 
  <br /> 
 
-
-
-
 **2. Train.**
 
 You can change the `local_config' files in the script to choose the model for training. 
@@ -121,16 +118,7 @@ After training, the checkpoints will be saved in the path `checkpoints/XXX', whe
 
 **3. Eval.**
 
-You can change the `local_config' files and checkpoint path in the script to choose the model for testing. 
-```
-bash eval.sh
-```
-
-**4. Visualize.**
-
-```
-bash infer.sh
-```
+You can evaluate the result maps using the tool in [Python_GPU Version](https://github.com/zyjwuyan/SOD_Evaluation_Metrics) or [Matlab Version](http://dpfan.net/d3netbenchmark/).
 
 
 ## 🚩 Performance
@@ -146,14 +134,6 @@ bash infer.sh
     <em> 
     </em>
 </p> -->
-
-## 🕙 ToDo
-- [ ] Tutorial on applying the DFormer encoder to the frameworks of other tasks
-- [ ] Release the code of RGB-D pre-training.
-- ~~[-] Tutorial on applying to a new dataset.~~
-- ~~[-] Release the DFormer code for RGB-D salient obejct detection.~~
-
-> We invite all to contribute in making it more acessible and useful. If you have any questions or suggestions about our work, feel free to contact me via e-mail (bowenyin@mail.nankai.edu.cn) or raise an issue. 
 
 
 ## Reference
