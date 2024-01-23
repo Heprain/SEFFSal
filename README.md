@@ -115,8 +115,16 @@ bash train.sh
 
 After training, the checkpoints will be saved in the path `checkpoints/XXX', where the XXX is depends on the training config.
 
+**3. Test.**
 
-**3. Eval.**
+You can change the `local_config' files in the script to choose the model for training. 
+```
+bash train.sh
+```
+
+After training, the checkpoints will be saved in the path `checkpoints/XXX', where the XXX is depends on the training config.
+
+**4. Eval.**
 
 You can evaluate the result maps using the tool in [Python_GPU Version](https://github.com/zyjwuyan/SOD_Evaluation_Metrics) or [Matlab Version](http://dpfan.net/d3netbenchmark/).
 
