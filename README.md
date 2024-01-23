@@ -150,7 +150,14 @@ You can evaluate the result maps using the tool in [Python_GPU Version](https://
 ## Reference
 You may want to cite:
 ```
-
+@misc{huang2024saliency,
+      title={A Saliency Enhanced Feature Fusion based multiscale RGB-D Salient Object Detection Network}, 
+      author={Rui Huang and Qingyi Zhao and Yan Xing and Sihua Gao and Weifeng Xu and Yuxiang Zhang and Wei Fan},
+      year={2024},
+      eprint={2401.11914},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
 ```
 
 
