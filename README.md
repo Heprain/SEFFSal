@@ -53,7 +53,7 @@ pip install timm
 
 - **Datasets:** 
 
-Download the raw data from Baidu Pan [code: yiy1](). 
+Download the raw data from [Google Drive](). 
 
 
 - **Checkpoints:** 
@@ -62,7 +62,7 @@ FasterNet Pre-trained models T/S/M can be downloaded at:
 
 | name | resolution | acc | #params | FLOPs | model |
 |:---:|:---:|:---:|:---:| :---:|:---:|
-| FasterNet-T | 224x224 | 78.9 | 15.0M | 1.90G | [model](https://github.com/JierunChen/FasterNet/releases/download/v1.0/fasternet_t2-epoch.289-val_acc1.78.8860.pth) |
+| FasterNet-T2 | 224x224 | 78.9 | 15.0M | 1.90G | [model](https://github.com/JierunChen/FasterNet/releases/download/v1.0/fasternet_t2-epoch.289-val_acc1.78.8860.pth) |
 | FasterNet-S | 224x224 | 81.3 | 31.1M | 4.55G | [model](https://github.com/JierunChen/FasterNet/releases/download/v1.0/fasternet_s-epoch.299-val_acc1.81.2840.pth) |
 | FasterNet-M | 224x224 | 83.0 | 53.5M | 8.72G | [model](https://github.com/JierunChen/FasterNet/releases/download/v1.0/fasternet_m-epoch.291-val_acc1.82.9620.pth) |
 
@@ -96,6 +96,10 @@ FasterNet Pre-trained models T/S/M can be downloaded at:
                 |-- <name2>.<DepthFormat>
         |-- <DatasetName2>
         |-- ...
+<pretrained>
+    |-- <fasternet_m...>
+    |-- <fasternet_s...>
+    |-- <fasternet_t2...>
 ```
 </code></pre>
 </details>
