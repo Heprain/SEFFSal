@@ -126,7 +126,7 @@ You can evaluate the result maps using the tool in [Python_GPU Version](https://
 <p align="center">
     <img src="pics/result.png" width="600"  width="1200"/> <br />
     <em> 
-    Figure 2: Quantitative comparison of different RGB-D SOD methods. The bold is the best. We use ’-t’, ’-s’, and ’-m’ to denote our method with tiny, small, and middle FasterNet backbones, respectively. ’-scale1’ and ’-scale2’ are two variants of our method.
+    Figure 2: Quantitative comparison of different RGB-D SOD methods.
     </em>
 </p> 
 
