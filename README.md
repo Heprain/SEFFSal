@@ -96,10 +96,11 @@ FasterNet Pre-trained models T/S/M can be downloaded at:
                 |-- <name2>.<DepthFormat>
         |-- <DatasetName2>
         |-- ...
-<pretrained>
-    |-- <fasternet_m...>
-    |-- <fasternet_s...>
-    |-- <fasternet_t2...>
+<SEFFSal-main>
+    |-- <pretrained>
+        |-- <fasternet_m...>
+        |-- <fasternet_s...>
+        |-- <fasternet_t2...>
 ```
 </code></pre>
 </details>
