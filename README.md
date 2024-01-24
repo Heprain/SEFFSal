@@ -2,7 +2,7 @@
 
 <!--  -->
 
-This official repository contains the source code, pre-trained, trained checkpoints, and evaluation toolbox of the paper 'A Saliency Enhanced Feature Fusion based multiscale RGB-D Salient Object Detection Network'. The full paper could be found at [arXiv]().
+This official repository contains the source code, pre-trained, trained checkpoints, and evaluation toolbox of the paper 'A Saliency Enhanced Feature Fusion based multiscale RGB-D Salient Object Detection Network'. The full paper could be found at [arXiv](https://arxiv.org/abs/2401.11914).
 
 We invite all to contribute to making it more accessible and useful. If you have any questions about our work, feel free to contact me via e-mail (qingy_zhao@163.com). 
 
