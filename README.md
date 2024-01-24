@@ -116,21 +116,18 @@ FasterNet Pre-trained models T/S/M can be downloaded at:
 
 **2. Train.**
 
-You can change the `local_config' files in the script to choose the model for training. 
+You can change the `--' files in the script to choose the model for training. 
 ```
 bash train.sh
 ```
 
-After training, the checkpoints will be saved in the path `checkpoints/XXX', where the XXX is depends on the training config.
+After training, the checkpoints will be saved in the path `--', where the XXX depends on the training config.
 
 **3. Test.**
 
-You can change the `local_config' files in the script to choose the model for training. 
 ```
-bash train.sh
+bash test.sh
 ```
-
-After training, the checkpoints will be saved in the path `checkpoints/XXX', where the XXX is depends on the training config.
 
 **4. Eval.**
 
@@ -153,6 +150,7 @@ You can evaluate the result maps using the tool in [Python_GPU Version](https://
     </em>
 </p>
 
+Test results of the above datasets can be downloaded from [Google Drive]().
 
 ## Reference
 You may want to cite:
