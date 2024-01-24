@@ -53,7 +53,7 @@ pip install timm
 
 - **Datasets:** 
 
-Download the raw data from [Google Drive](). 
+Download the raw data from [Google Drive](https://drive.google.com/file/d/1TZUzSi-k8SS_y-g8dt2frx4kMCO-YSwT/view?usp=drive_link). 
 
 
 - **Checkpoints:** 
