@@ -150,7 +150,7 @@ You can evaluate the result maps using the tool in [Python_GPU Version](https://
     </em>
 </p>
 
-Test results of the above datasets can be downloaded from [Google Drive]().
+Test results of the above datasets(except for ablation experiments) can be downloaded from [Google Drive]().
 
 ## Reference
 You may want to cite:
