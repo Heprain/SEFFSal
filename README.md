@@ -115,19 +115,18 @@ FasterNet Pre-trained models T/S/M can be downloaded at:
  <br /> 
 
 **2. Train.**
-
-You can change the `--' files in the script to choose the model for training. 
+You can modify the 'train.sh' or 'options.py' to choose the model for training. 
 ```
 bash train.sh
 ```
-
-After training, the checkpoints will be saved in the path `--', where the XXX depends on the training config.
+After training, the checkpoints will be saved in the path `snapshots/xx_ep101/', where the xx depends on the training config.
 
 **3. Test.**
 
 ```
 bash test.sh
 ```
+After testing, the saliency map will be saved in the path `map/xx_ep101/'.
 
 **4. Eval.**
 
