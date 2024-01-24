@@ -115,6 +115,7 @@ FasterNet Pre-trained models T/S/M can be downloaded at:
  <br /> 
 
 **2. Train.**
+
 You can modify the 'train.sh' or 'options.py' to choose the model for training. 
 ```
 bash train.sh
