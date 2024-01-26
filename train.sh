@@ -5,7 +5,7 @@ SAVE_PATH=$SAVE_PREFIX
 
 CUDA_VISIBLE_DEVICES=0 python3 train.py --max_epochs 101 \
                                          --num_workers 2 \
-                                         --batch_size 4 \
+                                         --batch_size 10 \
                                          --savedir $SAVE_PATH \
                                          --depth 1 \
                                          --lr_mode poly \
