@@ -39,7 +39,7 @@ def val(args, val_loader, model, criterion):
             input, target = batched_inputs
         start_time = time.time()
 
-        if args.onGPU:
+        if args.gpu:
             input = input.cuda()
             target = target.cuda()
             if args.depth:
@@ -92,7 +92,7 @@ def train(args, train_loader, model, criterion, optimizer, epoch, max_batches, c
 
         lr = adjust_learning_rate(args, optimizer, epoch, iter + cur_iter, max_batches, lr_factor=lr_factor)
 
-        if args.onGPU == True:  
+        if args.gpu == True:  
             input = input.cuda()
             target = target.cuda()
             if args.depth:
@@ -155,14 +155,14 @@ def adjust_learning_rate(args, optimizer, epoch, iter, max_batches, lr_factor=1)
         param_group['lr'] = lr
     return lr
 
-def trainValidateSegmentation(args):
+def main(args):
     model = net.SEFFSal(args.net_size)  
     
     args.savedir = args.savedir + '_ep' + str(args.max_epochs) + '/'  
     if not os.path.exists(args.savedir):
         os.makedirs(args.savedir)
 
-    if args.onGPU:
+    if args.gpu:
         model = model.cuda()  
    
     total_params = sum([np.prod(p.size()) for p in model.parameters()]) 
@@ -200,7 +200,7 @@ def trainValidateSegmentation(args):
     
     print('For each epoch, we have {} batches'.format(max_batches))
     
-    if args.onGPU:
+    if args.gpu:
         cudnn.benchmark = True
 
     start_epoch = 0
@@ -278,4 +278,4 @@ if __name__ == '__main__':
     
     # print('Called with args:')
     # print(args)
-    trainValidateSegmentation(args)  
+    main(args)  
