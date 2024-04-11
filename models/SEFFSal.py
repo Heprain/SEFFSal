@@ -212,10 +212,6 @@ class SEFFSal(nn.Module):
         self.cls3_3 = nn.Conv2d(dec_channels[2], 1, 1, stride=1, padding=0)
         self.cls4_3 = nn.Conv2d(dec_channels[3], 1, 1, stride=1, padding=0)
         self.change = nn.Conv2d(8, 4, 1, stride=1, padding=0)
-        
-        self.c1 = nn.Conv2d(4, 1, 1, stride=1, padding=0)
-        self.c2 = nn.Conv2d(4, 1, 1, stride=1, padding=0)
-        self.c3 = nn.Conv2d(4, 1, 1, stride=1, padding=0)
 
     def forward(self, input, depth=None):
         s1_r = input
