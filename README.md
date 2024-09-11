@@ -47,7 +47,7 @@ pip install timm
 - **Datasets:** 
 
   Download the raw data of RGB-D from [Google Drive](https://drive.google.com/file/d/1TZUzSi-k8SS_y-g8dt2frx4kMCO-YSwT/view?usp=drive_link).
-  Download the raw data of RGB-T from [Google Drive](https://drive.google.com/file/d/1TZUzSi-k8SS_y-g8dt2frx4kMCO-YSwT/view?usp=drive_link). 
+  Download the raw data of RGB-T from [Google Drive](https://drive.google.com/file/d/1MJPhdUehvwG3FTY12CaJ3VALGWwqm6jw/view?usp=drive_link). 
 
 
 - **Checkpoints:** 
