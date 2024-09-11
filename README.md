@@ -6,7 +6,7 @@
 # <p align=left>`Saliency Enhanced Feature Fusion based Multi-scale Network for RGB-D/T Salient Object Detection`</p>
 
 <p align="center">
-    <img src="pics/FM.jpg" width="600"  width="1200"/> <br />
+    <img src="pics/FM.jpg" width="2500"  hight="1500"/> <br />
     <em> 
     Figure 1: The framework of our multiscale RGB-D/T saliency detector.
     </em>
