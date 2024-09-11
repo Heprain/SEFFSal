@@ -2,7 +2,7 @@
 
 - We have expanded on our original work! The old version is here: [v0](https://github.com/Heprain/SEFFSal/tree/v0) or in the "v0" directory.
 
-# <p align=left>`A SALIENCY ENHANCED FEATURE FUSION BASED MULTISCALE RGB-D SALIENT OBJECT DETECTION NETWORK (ICASSP 2024)`</p>
+# <p align=left>`Saliency Enhanced Feature Fusion based Multi-scale Network for RGB-D/T Salient Object Detection`</p>
 
 <!--  -->
 
