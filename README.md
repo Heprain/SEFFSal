@@ -145,6 +145,20 @@ You can evaluate the result maps using the tool in [Python_GPU Version](https://
     </em>
 </p>
 
+<p align="center">
+    <img src="pics/rgbt.png" /> <br />
+    <em> 
+    Figure 2: Quantitative comparison of different RGB-D SOD methods.
+    </em>
+</p> 
+
+<p align="center">
+    <img src="pics/rgbt.jpg" /> <br />
+    <em> 
+    Figure 3: Some typical results of different RGB-D SOD methods on various scenes.
+    </em>
+</p>
+
 Test results of the above datasets(except for ablation experiments) can be downloaded from [Google Drive](https://drive.google.com/file/d/1FyCv4DXjz888GC323ueaIsnu4qOlGD2J/view?usp=drive_link).
 
 
