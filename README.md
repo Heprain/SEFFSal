@@ -148,14 +148,14 @@ You can evaluate the result maps using the tool in [Python_GPU Version](https://
 <p align="center">
     <img src="pics/rgbt.png" /> <br />
     <em> 
-    Figure 2: Quantitative comparison of different RGB-D SOD methods.
+    Figure 2: Quantitative comparison of different RGB-T SOD methods.
     </em>
 </p> 
 
 <p align="center">
     <img src="pics/rgbt.jpg" /> <br />
     <em> 
-    Figure 3: Some typical results of different RGB-D SOD methods on various scenes.
+    Figure 3: Some typical results of different RGB-T SOD methods on various scenes.
     </em>
 </p>
 
