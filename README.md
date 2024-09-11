@@ -132,7 +132,7 @@ You can evaluate the result maps using the tool in [Python_GPU Version](https://
 ## 🚩 Performance
 > Note: Each of the compared methods was retrained using their default setting, except for image size (352 × 352) and number of epochs (100).
 <p align="center">
-    <img src="pics/rgbd.png" width="1488"  height="300"/> <br />
+    <img src="pics/rgbd.png" /> <br />
     <em> 
     Figure 2: Quantitative comparison of different RGB-D SOD methods.
     </em>
