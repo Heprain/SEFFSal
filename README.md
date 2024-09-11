@@ -8,18 +8,12 @@
 <p align="center">
     <img src="pics/fm.png" width="600"  width="1200"/> <br />
     <em> 
-    Figure 1: The framework of our multiscale RGB-D saliency detector.
+    Figure 1: The framework of our multiscale RGB-D/T saliency detector.
     </em>
 </p>
 
 
-## 1. 🌟  NEWS 
-
-- [2023/12/14] Our SEFFSal has been accepted by the 2024 IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP 2024).
-- [2024/1/22]  Releasing the codebase of SEFFSal and all the pre-trained checkpoints.
-
-
-## 2. 🚀 Get Start
+## 1. 🚀 Get Start
 
 **0. Install**
 > Note: This code was developed on Ubuntu 20.04 with Python 3.7, CUDA 11.7, and PyTorch 1.13.1.
