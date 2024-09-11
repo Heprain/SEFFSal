@@ -13,7 +13,7 @@
 </p>
 
 
-## 1. 🚀 Get Start
+## 🚀 Get Start
 
 **0. Install**
 > Note: This code was developed on Ubuntu 20.04 with Python 3.7, CUDA 11.7, and PyTorch 1.13.1.
@@ -68,34 +68,36 @@ FasterNet Pre-trained models T/S/M can be downloaded at:
     
 ```shell
 <Dataset>
-    |-- <Train>
-        |-- <depth>
-            |-- ...
-        |-- <GT>
-            |-- ...
-        |-- <RGB>
-            |-- ...
-    |-- <test_in_train>
-        |-- <depth>
-            |-- ...
-        |-- <GT>
-            |-- ...
-        |-- <RGB>
-            |-- ...
-    |-- <Test>
-        |-- <DatasetName1>
+    |-- <RGB-D>
+        |-- <Train>
             |-- <depth>
-                |-- <name1>.<DepthFormat>
-                |-- <name2>.<DepthFormat>
+                |-- ...
             |-- <GT>
-                |-- <name1>.<ImageFormat>
-                |-- <name2>.<ImageFormat>
-                ...
+                |-- ...
             |-- <RGB>
-                |-- <name1>.<DepthFormat>
-                |-- <name2>.<DepthFormat>
-        |-- <DatasetName2>
-        |-- ...
+                |-- ...
+        |-- <test_in_train>
+            |-- <depth>
+                |-- ...
+            |-- <GT>
+                |-- ...
+            |-- <RGB>
+                |-- ...
+        |-- <Test>
+            |-- <DatasetName1>
+                |-- <depth>
+                    |-- <name1>.<DepthFormat>
+                    |-- <name2>.<DepthFormat>
+                |-- <GT>
+                    |-- <name1>.<ImageFormat>
+                    |-- <name2>.<ImageFormat>
+                    ...
+                |-- <RGB>
+                    |-- <name1>.<DepthFormat>
+                    |-- <name2>.<DepthFormat>
+            |-- <DatasetName2>
+            |-- ...
+    |-- <RGB-T>
 <SEFFSal-main>
     |-- <pretrained>
         |-- <fasternet_m...>
@@ -130,14 +132,14 @@ You can evaluate the result maps using the tool in [Python_GPU Version](https://
 ## 🚩 Performance
 > Note: Each of the compared methods was retrained using their default setting, except for image size (352 × 352) and number of epochs (100).
 <p align="center">
-    <img src="pics/result.png" width="600"  width="1200"/> <br />
+    <img src="pics/result.png" width="600"  height="1200"/> <br />
     <em> 
     Figure 2: Quantitative comparison of different RGB-D SOD methods.
     </em>
 </p> 
 
 <p align="center">
-    <img src="pics/comp.png" width="600"  width="1200"/> <br />
+    <img src="pics/comp.png" width="600"  height="1200"/> <br />
     <em> 
     Figure 3: Some typical results of different RGB-D SOD methods on various scenes.
     </em>
