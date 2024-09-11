@@ -139,7 +139,7 @@ You can evaluate the result maps using the tool in [Python_GPU Version](https://
 </p> 
 
 <p align="center">
-    <img src="pics/rgbd.jpg" width="1853"  height="800"/> <br />
+    <img src="pics/rgbd.jpg" /> <br />
     <em> 
     Figure 3: Some typical results of different RGB-D SOD methods on various scenes.
     </em>
