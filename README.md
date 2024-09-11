@@ -1,12 +1,9 @@
-***News***
+***Tips***
 
 - We have expanded on our original work! The old version is here: [v0](https://github.com/Heprain/SEFFSal/tree/v0) or in the "v0" directory.
+- We invite all to contribute to making it more accessible and useful. If you have any questions about our work, feel free to contact me via e-mail (qingy_zhao@163.com). 
 
 # <p align=left>`Saliency Enhanced Feature Fusion based Multi-scale Network for RGB-D/T Salient Object Detection`</p>
-
-<!--  -->
-
-We invite all to contribute to making it more accessible and useful. If you have any questions about our work, feel free to contact me via e-mail (qingy_zhao@163.com). 
 
 <p align="center">
     <img src="pics/fm.png" width="600"  width="1200"/> <br />
