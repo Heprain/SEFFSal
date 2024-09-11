@@ -147,19 +147,6 @@ You can evaluate the result maps using the tool in [Python_GPU Version](https://
 
 Test results of the above datasets(except for ablation experiments) can be downloaded from [Google Drive](https://drive.google.com/file/d/1FyCv4DXjz888GC323ueaIsnu4qOlGD2J/view?usp=drive_link).
 
-## Reference
-You may want to cite:
-```
-@misc{huang2024saliency,
-      title={A Saliency Enhanced Feature Fusion based multiscale RGB-D Salient Object Detection Network}, 
-      author={Rui Huang and Qingyi Zhao and Yan Xing and Sihua Gao and Weifeng Xu and Yuxiang Zhang and Wei Fan},
-      year={2024},
-      eprint={2401.11914},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
-}
-```
-
 
 ### Acknowledgment
 
